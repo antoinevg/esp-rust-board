@@ -6880,8 +6880,21 @@
     (pin "2" (uuid 4723f5e3-420c-498f-bedb-b1c6c3fa9e18))
   )
 
+  (sheet (at 119.38 109.22) (size 35.56 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5f8e78fa-fc97-4a96-80a4-b11b892e82f2)
+    (property "Sheet name" "audio_codec" (id 0) (at 119.38 108.5084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "audio_codec.kicad_sch" (id 1) (at 119.38 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/5f8e78fa-fc97-4a96-80a4-b11b892e82f2" (page "2"))
   )
 
   (symbol_instances
@@ -7214,6 +7227,9 @@
     )
     (path "/00000000-0000-0000-0000-0000626d21df"
       (reference "U6") (unit 1) (value "MCP73831-2-OT") (footprint "Package_TO_SOT_SMD:SOT-23-5")
+    )
+    (path "/5f8e78fa-fc97-4a96-80a4-b11b892e82f2/60df69da-dd0d-4654-9e3f-9e1c8ebb8c59"
+      (reference "U?") (unit 1) (value "WM8904") (footprint "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.65x2.65mm_ThermalVias")
     )
     (path "/00000000-0000-0000-0000-00006234eeee"
       (reference "Y1") (unit 1) (value "32.768Hz") (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")

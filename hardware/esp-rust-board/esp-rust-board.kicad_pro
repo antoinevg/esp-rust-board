@@ -382,7 +382,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Rust_Board",
+      "Rust_Board_Audio"
+    ]
   },
   "meta": {
     "filename": "esp-rust-board.kicad_pro",
@@ -466,6 +469,10 @@
     [
       "196a8dd5-5fd6-4c7f-ae4a-0104bd82e61b",
       ""
+    ],
+    [
+      "5f8e78fa-fc97-4a96-80a4-b11b892e82f2",
+      "audio_codec"
     ]
   ],
   "text_variables": {}

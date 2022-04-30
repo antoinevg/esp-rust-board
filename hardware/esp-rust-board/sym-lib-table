@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Rust_Board")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/Rust_Board.kicad_sym")(options "")(descr ""))
+  (lib (name "Rust_Board_Audio")(type "KiCad")(uri "/Users/antoine/Espressif/esp-rust-board.git/kicad_libs/Rust_Board_Audio.kicad_sym")(options "")(descr ""))
 )
